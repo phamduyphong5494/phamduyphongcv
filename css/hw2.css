@@ -1,0 +1,44 @@
+body {
+	width: 80%;
+	font-family: sans-serif;
+	padding-left: 10%;
+}
+.header {
+	height: 250px;
+	background-color: grey;
+	display: flex;
+}
+.header .image {
+	width: 30%;
+	text-align: center;
+	padding-top: 35px;
+}
+.header .image img {
+	width: 150px;
+}
+.header .name {
+	width: 60%;
+	text-align: center;
+	padding-top: 75px;
+}
+.header .name h1 {
+	font-size: 40px;
+}
+.header .name p {
+	font-size: 25px;
+}
+.infor {
+	height: 75px;
+	display: flex;
+	color: grey;
+}
+.infor .infor1 {
+	width: 33.333%;
+}
+.infor .infor1 ul {
+	list-style-type: none;
+}
+.content {
+	height: 500px;
+	border: 1px solid black;
+}
